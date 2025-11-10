@@ -3,22 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>C++ Practice Problems</title>
-    <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <title>C++ Language Files</title>
+    <style>
+        #border{
+            border-bottom:2px solid salmon;
+        }
+        .click{
+            text-decoration:none;
+        } 
+        ul li{
+            list-style:none;
+        }
+        hr{
+            color:aqua;
+        }
+    </style>
 </head>
 <body>
-    <header>
-      <h3 class="text-center">C++ PRACTICE PROBLEMS</h3>
-    </header>
-  <div class="container">
-    <div class="row">
-      <div class="col col-md-6 col-sm-12">
-        <h5>Secret Message Converter</h5>
-        <a href="SecretCode.cpp">Click Here</a>
-      </div>
-      <div class="col col-md-6 col-sm-12"></div>
+    <div class="container text-center my-3" id="border">
+        <h1 class="text-danger">C++ Language basic codes</h1>
+        <p class="text-danger">By : <span>Kashaf Akhlaq </span></p>
     </div>
-  </div>
+    <div class="container text-center my-5">
+        <h3 class="text-center">This are main codes in C++</h3>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 mb-2">
+                    <h4>Match stick Game</h4>
+                    <p>This is a matchstick game which have 21 matchsticks the user has to pick 1 2 3 4 magisticks and then computer pic matchsticks who have to pick last match is takes will lost the game.</p>
+                    <button class="btn btn-info" >
+                        <a href="SecretCode.cpp" class="text-white click">click here</a>
+                    </button>
+            </div>
+            <div class="col-sm-12 col-md-6 mb-2">
+                <h4>Guess the Number</h4>
+                <p>This is a game in which you have to guess a number which computer is already choosed.</p>
+               <button class="btn btn-info" >
+                   <a href="Guess.c" class="text-white click">Click to play</a>
+               </button>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 mb-2">
+                <h4>Calculator</h4>
+                <p>This calculator can perform basic operations</p>
+                <button class="btn btn-info" >
+                    <a href="calculate.c" class="text-white click">Click to use</a>
+                </button>
+            </div>
+            <div class="col-sm-12 col-md-6 mb-2">
+                <h4>Rock ,Paper and Scissors Game</h4>
+                <p>In this game The winning hand beats the losing hand as follows</p>
+                <ul>
+                    <li>Rock beats Scissors (because rock can crush scissors)</li>
+                    <li>Scissors beats Paper (because scissors can cut paper)</li>
+                    <li>Paper beats Rock (because paper can cover rock)</li>
+                </ul>
+                <p>If both players choose the same shape, the game is a tie.</p>
+                <button class="btn btn-info" >
+                    <a href="Rock.c" class="text-white click">Click to use</a>
+                </button>
+            </div>
+        </div>
+        <hr>
+    </div>
 </body>
 </html>

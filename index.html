@@ -9,6 +9,9 @@
         .heading{
             margin: 2px;
         }
+        #border{
+            border-bottom:2px solid salmon;
+        }
         .click{
             text-decoration:none;
         } 
@@ -20,22 +23,24 @@
             margin: 2px;
         }
         .col {
-            border:2px solid salmon;
-            padding: .5rem;
+            border:2px solid white;
+            padding: 2rem;
             border-radius: 2rem;
             transition: .5s ease;
+            cursor:arrow;
         }
         .col:hover{
+              border:2px solid salmon;
               transform: scale(1.02);
         }
     </style>
 </head>
 <body>
-    <div class="container text-center my-3">
+    <div class="container text-center my-3" id="border">
         <h1 class="text-danger">C++ Language basic codes</h1>
         <p>By : <span>Kashaf Akhlaq </span></p>
     </div>
-    <div class="container text-center my-5">
+    <div class="container-fluid text-center my-5">
         <div class="row g-3">
             <div class="col col-sm-12 col-md-6 mb-2">
                     <h4 class="heading">Secret message converter</h4>

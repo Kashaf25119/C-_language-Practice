@@ -7,7 +7,7 @@
     <title>C++ Language Files</title>
     <style>
         .heading{
-            margin: 2px;
+            margin-bottom: 2px;
         }
         #border{
             border-bottom:2px solid salmon;
@@ -15,14 +15,20 @@
         .click{
             text-decoration:none;
         } 
-        hr{
-            color: red;
-            size:2px;
-        }
         .click{
             margin: 2px;
         }
+        #cont{
+            margin:2rem;
+        }
+        .row {
+            display: flex;       
+            flex-wrap: wrap;     
+            gap: 10px;            
+        }
         .col {
+            height:500px;
+            width:100%;
             border:2px solid white;
             padding: 2rem;
             border-radius: 2rem;
@@ -40,8 +46,8 @@
         <h1 class="text-danger">C++ Language basic codes</h1>
         <p>By : <span>Kashaf Akhlaq </span></p>
     </div>
-    <div class="container-fluid text-center my-5">
-        <div class="row g-3">
+    <div class="container-fluid text-center my-5" id="cont">
+        <div class="row">
             <div class="col col-sm-12 col-md-6 mb-2">
                     <h4 class="heading">Secret message converter</h4>
                     <p>This C++ program encrypts and decrypts messages using a simple Caesar cipher that shifts lowercase letters by three positions, replacing non-lowercase characters with spaces.</p>
@@ -57,7 +63,6 @@
                 </button>
             </div>
         </div>
-        <hr>
        <!--  <div class="row">
             <div class="col-sm-12 col-md-6 mb-2">
                 <h4>Calculator</h4>

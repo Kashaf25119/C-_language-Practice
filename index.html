@@ -9,20 +9,21 @@
         #border{
             border-bottom:2px solid salmon;
         }
-        #heading{
-            margin : 2px;
+        .heading{
+            margin: 2px;
         }
         .click{
             text-decoration:none;
         } 
-        ul li{
-            list-style:none;
-        }
         hr{
-            color:aqua;
+            color: salmon;
         }
         .click{
             margin: 2px;
+        }
+        .col {
+            border: 2px solid salmon;
+            border-radius:25%;
         }
     </style>
 </head>
@@ -32,17 +33,16 @@
         <p>By : <span>Kashaf Akhlaq </span></p>
     </div>
     <div class="container text-center my-5">
-        <h3 class="text-center" id="heading">This are main codes in C++</h3>
         <div class="row">
-            <div class="col-sm-12 col-md-6 mb-2">
-                    <h4>Secret message converter</h4>
+            <div class="col col-sm-12 col-md-6 mb-2">
+                    <h4 class="heading">Secret message converter</h4>
                     <p>This C++ program encrypts and decrypts messages using a simple Caesar cipher that shifts lowercase letters by three positions, replacing non-lowercase characters with spaces.</p>
                     <button class="btn btn-danger" id="button-container" >
                         <a href="SecretCode.cpp" class="text-white click">Click for code</a>
                     </button>
             </div>
-            <div class="col-sm-12 col-md-6 mb-2">
-                <h4>Library System</h4>
+            <div class="col col-sm-12 col-md-6 mb-2">
+                <h4 class="heading">Library System</h4>
                 <p>This program is a simple Library Management System that lets users view available books, issue books, and return books from different departments.</p>
                 <button class="btn btn-danger" id="button-container" >
                         <a href="LibrarySystem.cpp" class="text-white click">Click for code</a>
